@@ -3,6 +3,7 @@ int findNumbers(int* nums, int numsSize)
     int count=0,i,evenDigits=0;
     for(i=0;i<numsSize;i++)
     {
+        count=0;
         while(nums[i]>0)
         {
             nums[i]=nums[i]/10;
